@@ -37,9 +37,6 @@ body {
 .jump {
     margin-top: 10%; 
 }
-.beef {
-    margin: 2% 8%;
-}
 
 
 /*STYLING FOR SIGN.HTML  */
@@ -55,7 +52,7 @@ div.inner form {
 
 .mega {
     border-radius: 20px;
-    padding: 1% 5% 10% 5%;
+    padding: 1% 5% 1% 5%;
 }
 
 .signage {
@@ -79,5 +76,4 @@ form.jay {
     color: white;
     border-radius: 10PX;
     border-style: hidden;
-    border-color: 
 }

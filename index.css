@@ -1,79 +1,43 @@
-/* sign-up button styling {index.html} */
-.aj {
-    color: green;
-    padding: 1% 25%;
-    cursor: pointer;
-    border-radius: 30%;
-    border-style: dotted;
-    border-color: orange; 
-}
-.aj:hover {
-    background-color: green;
-    color: lawngreen;
-}
-
-.nigeria {
-    color: darkorange;
-    margin-top: 5%;
-}
-/* Log-in button styling {index.html} */
-.bj {
-    color: green;
-    padding: 1% 25%;
-    cursor: pointer;
-    border-radius: 30%;
-    border-style: dotted;
-    border-color: orange;
-}
-.bj:hover {
-    background-color: green;
-    color: lawngreen;
-}
+/* FRONT-PAGE STYLING */
 body {
     text-align: center;
     margin: 0%;
 }
-
-.jump {
-    margin-top: 10%; 
+.startingWord {
+    color: darkorange;
+    /* margin-top: 5%; */
 }
 
-
-/*STYLING FOR SIGN.HTML  */
-div.name input {
-    padding: 2% 2%;
-}
-div.name {
-    padding: 1.5%
-}
-div.inner form {
-    padding: 3% 20%;
-}
-
-.mega {
-    border-radius: 20px;
-    padding: 1% 5% 1% 5%;
-}
-
-.signage {
-    color:red;
-    padding: 20px;
-    border-radius: 3%;
-    /* margin: 3%; */
-}
-form.jay {
-    margin-top: -5%;
-    padding: -200%;
-}
-.finish {
-    padding: 2%;
-    border-radius: 10%;
-    margin-bottom: 10px; 
-}
-.finish:hover {
+.signUpButton {
+    color: green;
+    padding: 5% 6%;
     cursor: pointer;
-    background-color:orange;
-    color: white;
-    border-radius: 10PX;
-    border-style: hidden;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    background-color: lawngreen; 
 }
+
+.signUpButton:hover {
+    background-color: green;
+    color: lawngreen;
+}
+
+.RapperDiv {
+    width: 300px;
+    margin: 7% auto 0; 
+}
+
+div input {
+    width: 100%;
+    padding: 5% 0% 5% 1%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.signUpButton {
+    width: 100%;
+    padding: 5% 8%;
+    border-radius: 20px;
+}
+

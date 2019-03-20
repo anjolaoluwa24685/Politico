@@ -1,11 +1,17 @@
 /* FRONT-PAGE STYLING */
 body {
-    text-align: center;
+    /* text-align: center; */
     margin: 0%;
 }
+
+.headingWord {
+    text-align: center;
+}
+
 .startingWord {
     color: darkorange;
-    /* margin-top: 5%; */
+    margin-top: 5%;
+    text-align: center;
 }
 
 .signUpButton {
@@ -20,15 +26,15 @@ body {
 
 .signUpButton:hover {
     background-color: green;
-    color: lawngreen;
+    color: white;
 }
 
-.RapperDiv {
+.rapperDiv {
     width: 300px;
-    margin: 7% auto 0; 
+    margin: 5% auto 0; 
 }
 
-div input {
+div.placeholders input {
     width: 100%;
     padding: 5% 0% 5% 1%;
     border-radius: 20px;
@@ -41,3 +47,110 @@ div input {
     border-radius: 20px;
 }
 
+.chooseFileButton {
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.partyImageFlex {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #C0C0C0;
+    flex: 0 0 22%;
+}
+
+.addButton {
+    padding: 1% 6%;
+    border-radius: 7px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.partyImageWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.parent-wrapper {
+    width: 100%;
+}
+
+.ballotColor {
+    background-color: darkgrey;
+    padding-top: 1%;
+    display: flex;
+}
+
+.ballotLogo {
+    height: 90px;
+    width: -750px;
+}                  zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+.ballotWords {
+    text-align: right;
+}
+
+.profileButton {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 2% 20%;
+    margin-left: 40%;
+}
+
+.profileButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.searchPartyButton input {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 2% 15%;
+    margin-left: 5%;
+}
+
+.searchPartyButton input:hover {
+    color: white;
+    background-color: green;
+}
+
+.addNewPartyButton {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 1% 7%;
+    margin-left: 40%;
+}
+
+.addNewPartyButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.edit-deleteButton {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+
+.edit-deleteButton:hover {
+    background-color: green;
+    color: white;
+}

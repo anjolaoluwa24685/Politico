@@ -57,6 +57,7 @@ div.placeholders input {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: #C0C0C0;
     flex: 0 0 22%;
+    text-align: center;     /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 }
 
 .addButton {
@@ -93,7 +94,6 @@ div.placeholders input {
 
 .ballotLogo {
     height: 90px;
-    width: -750px;
 }                  
 
 .ballotWords {
@@ -122,14 +122,7 @@ div.placeholders input {
     border-style: solid;
     cursor: pointer;
     border-radius: 6px;
-    padding: 2% 2%;
-    margin-left: 5%;
-
-}
-
-.searchPartyButton input:hover {
-    color: white;
-    background-color: green;
+    padding: 2% 8%;
 }
 
 .addNewPartyButton {
@@ -169,10 +162,12 @@ div.placeholders input {
 .mainProfileWrapper {
     background-color: darkgray;
     margin-top: 10%;
-    border-radius: 20px;
+    border-radius: 40px;
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 1px;
+    box-shadow: 0 4px 0 4px;
+    padding-bottom: 2%;
 }
 
 .secondProfileButton {
@@ -234,16 +229,21 @@ div.placeholders input {
     text-align: center;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
 
+td {
+border: 2px solid green;
+text-align: center;
+padding: 8px;
+}
 
-
-
-
-
-
-
-
-
+.tableClass {
+    margin-left: 10%;
+}
 
 
 

@@ -18,7 +18,13 @@ class PartyController {
 
     }
 
-    
+    static getParties(request, response) {
+        return response.status(200).json({
+            status: true,
+            data: party
+        })
+    }
+
 }
 
 export default PartyController;

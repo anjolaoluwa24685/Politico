@@ -25,6 +25,30 @@ class PartyController {
         })
     }
 
+    static getSpecificPoliticalParty(request, response) {
+        let data;
+        for (let i = 0; i < party.length; i++) {
+            // console.log(party, 'party')
+            // console.log(party[i])
+            // console.log(party[i].id)
+            if (request.params.id == party[i].id) {
+                data = party[i];
+            }
+        }
+        if (data) {
+            return response.status(200).json({
+                status: true,
+                data: data
+            })
+        } else {
+            return response.status(200).json({
+                status: true,
+                message: 'no party found'
+            })
+        }
+    }
+
+
 }
 
 export default PartyController;

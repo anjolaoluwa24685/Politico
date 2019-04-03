@@ -10,7 +10,7 @@ export const checkCreatePartyInput = (request, response, next) => {
     };
 };
 
-export const checkgetSpecificParty = (request, response, next) => {
+export const checkParamsId = (request, response, next) => {
     if (isNaN(request.params.id)) {
         return response.status(400).json({
             status: false,

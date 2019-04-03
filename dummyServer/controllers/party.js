@@ -19,18 +19,22 @@ class PartyController {
     }
 
     static getParties(request, response) {
+        if(party.length === 0) {
+            return response.status(200).json({
+                status: true,
+                message: 'no party available'
+            })
+        }
         return response.status(200).json({
             status: true,
             data: party
         })
+
     }
 
     static getSpecificPoliticalParty(request, response) {
         let data;
         for (let i = 0; i < party.length; i++) {
-            // console.log(party, 'party')
-            // console.log(party[i])
-            // console.log(party[i].id)
             if (request.params.id == party[i].id) {
                 data = party[i];
             }
@@ -78,6 +82,30 @@ class PartyController {
             data: data
         })
     }
+
+    static deleteParticularParty(request, response) {
+        let found = false;
+        for (let i = 0; i < party.length; i++) {
+            if (request.params.id == party[i].id) {
+               party.splice(i, 1)
+               found = true
+            }
+        }
+        if (found) {
+            return response.status(200).json({
+                status: true,
+                message: 'you have successfully deleted a party'
+            })
+        } else {
+            return response.status(404).json({
+                status: true,
+                message: 'No party found for the specify id'
+            })
+        }
+
+        
+    } 
+
 
 }
 

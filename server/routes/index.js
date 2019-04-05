@@ -19,6 +19,7 @@ app.put('/api/v1/parties/:id', checkParamsId, PartyController.editSpecificParty)
 app.delete('/api/v1/parties/:id', checkParamsId, PartyController.deleteParticularParty);
 app.post('/api/v1/offices', checkPoliticalOffices, officesController.createPoliticalOffices);
 app.get('/api/v1/offices', officesController.getPoliticalOffices);
+app.get('/api/v1/offices/:id', checkParamsId, officesController.getSpecificPoliticalOffice)
 
 
 export default app;

@@ -14,5 +14,21 @@ static createPoliticalOffices(request, response) {
     })
 
 }
+
+static getPoliticalOffices(request, response) {
+    if(offices.length === 0) {
+        return response.status(200).json({
+            status: true,
+            message: 'no offices available'
+        })
+    }
+    return response.status(200).json({
+        status: true,
+        data: offices
+    })
+
 }
+
+}
+
 export default OfficesController;

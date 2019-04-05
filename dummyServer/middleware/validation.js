@@ -22,12 +22,15 @@ export const checkParamsId = (request, response, next) => {
 }
 
 export const checkPoliticalOffices = (request, response) => {
-    const {name, type} = request.body
-    if(!name || !type) {
+    const { name, type } = request.body
+    if (!name || !type) {
         return response.status(404).json({
             status: false,
             message: 'Invalid input'
         })
     }
 }
+
+
+
 

@@ -1,0 +1,253 @@
+/* FRONT-PAGE STYLING */
+body {
+    /* text-align: center; */
+    margin: 0%;
+}
+
+.headingWord {
+    text-align: center;
+}
+
+.startingWord {
+    color: darkorange;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.signUpButton {
+    color: green;
+    padding: 5% 6%;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    background-color: lawngreen; 
+}
+
+.signUpButton:hover {
+    background-color: green;
+    color: white;
+}
+
+.rapperDiv {
+    width: 300px;
+    margin: 5% auto 0; 
+}
+
+div.placeholders input {
+    width: 100%;
+    padding: 5% 0% 5% 1%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.signUpButton {
+    width: 100%;
+    padding: 5% 8%;
+    border-radius: 20px;
+}
+
+.chooseFileButton {
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.partyImageFlex {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #C0C0C0;
+    flex: 0 0 22%;
+    text-align: center;     /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+}
+
+.addButton {
+    padding: 1% 6%;
+    border-radius: 7px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.partyImageWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.parent-wrapper {
+    width: 100%;
+}
+
+.ballotColor {
+    background-color: darkgrey;
+    padding-top: 1%;
+    display: flex;
+}
+
+.custom-logo {
+    flex: 0 0 50%
+}
+
+.ballotLogo {
+    height: 90px;
+}                  
+
+.ballotWords {
+    text-align: right;
+    flex: 0 0 50%
+}
+
+.profileButton {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 2% 10%;
+    margin-right: 2%;
+}
+
+.profileButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.searchPartyButton input {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 2% 8%;
+}
+
+.addNewPartyButton {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 1% 7%;
+    margin-left: 40%;
+}
+
+.addNewPartyButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.edit-deleteButton {
+    color: green;
+    border-color: green;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+
+.edit-deleteButton:hover {
+    background-color: green;
+    color: white;
+}
+
+.listOfCandidates {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.mainProfileWrapper {
+    background-color: darkgray;
+    margin-top: 10%;
+    border-radius: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1px;
+    box-shadow: 0 4px 0 4px;
+    padding-bottom: 2%;
+}
+
+.secondProfileButton {
+    margin-left: 80%;
+    margin-top: 4%;
+    background-color: green;
+    padding: 1% 4% 1% 4%;
+    border-radius: 5px;
+}
+
+.profileWrapper {
+    margin-top: 4%;
+}
+
+.username {
+    text-align: center;
+}
+
+.fullName {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.emailAddress {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.nameWrapper {
+    padding-bottom: 4%;
+}
+
+.classApc {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.classPdp {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.classAdp {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.classAcn {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.classUdp {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.classNpp {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td {
+border: 2px solid green;
+text-align: center;
+padding: 8px;
+}
+
+.tableClass {
+    margin-left: 10%;
+}
+
+
+
+
+
+
+

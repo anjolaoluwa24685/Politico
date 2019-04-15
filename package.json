@@ -24,8 +24,10 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "path": "^0.12.7",
+    "pg": "^7.9.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
